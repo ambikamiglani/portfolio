@@ -1,0 +1,74 @@
+.ArtHome{ 
+        min-width: fit-content;
+        height: 100%; 
+        padding-bottom: 15vh; 
+        /* display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; */
+        /* background: linear-gradient(271deg, #8bfddf, #b0ff97, #efff98, #fe98ff, #ff9998, #ffc698, #fff392, #92ffb8);  */
+        background-size: 2000% 2000%;  
+        background: seashell;
+        -webkit-animation: ColourShift 100s ease infinite;
+        -moz-animation: ColourShift 100s ease infinite;
+        animation: ColourShift 100s ease infinite;
+        color: white; 
+}
+
+.Title{ 
+    font-size: calc(30px + 2vmin);
+    min-width: 100vw; 
+    min-height: 10vh; 
+    /* color: white; */
+    letter-spacing: 1px; 
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Avenir'; 
+    margin-bottom: 30px; 
+    
+}
+.item{ 
+    padding:10px; 
+    /* height: 30vh; 
+    object-fit: cover; */
+}
+
+#title{ 
+    margin: auto; 
+    padding-top: 7vh; 
+    color: darkslateblue; 
+    font-family: 'Avenir'; 
+}
+.MenuBar{ 
+    position: sticky; 
+    /* margin: 10vw;  */
+    max-width: 160px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 2vw;
+    text-align: left; 
+    justify-content: center; 
+}
+
+#third-col{ 
+    margin-right: 0vw;
+}
+
+.column{ 
+    display: inline-block; 
+    min-width: 40%; 
+}
+@-webkit-keyframes ColourShift {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+  }
+  @-moz-keyframes ColourShift {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+}
+@keyframes ColourShift {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+} 

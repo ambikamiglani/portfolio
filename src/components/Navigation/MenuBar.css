@@ -1,0 +1,17 @@
+.MenuBar{ 
+    max-width: 250px;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    margin-left: 3vw; 
+    /* align-self: center; */
+    /* justify-content: center; */ 
+}
+
+.flex-column{ 
+    color: white;
+    height: 30vh;  
+    text-align: left;
+
+
+}

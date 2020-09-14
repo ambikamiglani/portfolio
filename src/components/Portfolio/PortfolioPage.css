@@ -1,0 +1,41 @@
+.PortfolioPage{ 
+    min-width: 100vw;
+    min-height: 100vh; 
+    background-color: seashell;
+    /* background-image: linear-gradient(280deg,seashell, white); */
+    /* background-size: 2000% 2000%; */
+    -webkit-animation: ColourShift 10s ease infinite;
+    -moz-animation: ColourShift 10s ease infinite;
+    animation: ColourShift 10s ease infinite;
+    display: inline-block;
+}
+
+.MainCol{ 
+    /* min-width: 100vw; */
+    text-align: left;
+}
+
+
+.ItemRow{ 
+    margin-bottom: 8vh; 
+    justify-content: left;
+}
+
+#img-row{ 
+    min-height: 20vh;
+}
+
+.Img{ 
+    width: 90vw; 
+    height: auto; 
+    /* height: 400px;  */
+    z-index: 5; 
+}
+
+.ContentCol{ 
+    text-align: left;
+    margin-left: 10%; 
+    font-family: 'Avenir';
+
+    /* margin-top: 5%;  */
+}

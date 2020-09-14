@@ -1,0 +1,43 @@
+
+    {   
+        "Oasis": { 
+                "title": "Oasis", 
+                "subtitle": "How can we reimagine colors and shapes to inspire a feeling of hope and curious longing?", 
+                "intro": "Through art deco and fauvist inspiration, I wanted to evoke a feeling of joyful escapsism. The small step away from reality that these movements represent allow the viewer to experience sensorial immersion in a way that isn't possible with hyper-realistic images.", 
+                "text01": "I sifted through these paintings to come up with a color palette that embodied the idea of dream, joy, and nature. I drew inspiration from the simple organic shapes and lines used in the Art Deco and Matisse paintings and combined them with the colors used to portray the wondrous atmosphere of an oasis.", 
+                "text02": "To explore painting techniques and color combinations, I did a color study of Monet's 'Impression, Sunrise' and experimented with different ways of presenting bodies. ", 
+                "nextSteps": "While this painting did achieve a level of dreaminess and wonder through the perspective and unexpected splash of blue in the center of the page, the color palette feels unfocussed, which is distracting. The landscape feels wide but not expansive. In order to do this I will experiment with a three-paneled approach to widen the scope of the painting, as well as limit my palette to complementary colors."
+        }, 
+        
+        "Soundspace": { 
+                "title": "Sound as Space", 
+                "subtitle": "How can a we visually immerse a user in journey through sound?  I drew inspiration from Peggy Gou's performance at her London Mixmag set and her song 'Starry Night' to experiment with making music a more visual, visceral experience. The photos below are stills from a recording of her performance.", 
+                "intro": "At a live event, colorful lights often enhance the viewer's musical experience. I was inspired by the lights at Peggy Gou's set and tried to incorporate similar colors into my world. I started experimenting with environment configurations on Unity3D.", 
+                "text01": "After deciding on the color palette for the environment, I started populating the 3D world with surreal imagery. My intention was to use realistic 3D models in an unrealistic setting, so that the viewer would be immersed by the familiarity of some of the imagery, but wuold want to explore because of their unusual context.", 
+                "nextSteps": "This piece was exciting to work on and presents an immersive way of experiencing music. However, I used mostly camera and environment transitions to match specific transitions in the song, but next time I could animate more of the objects to the beat of the music."
+        }, 
+
+        "Iterative": { 
+                "title": "Iterative Design and User Testing", 
+                "subtitle": "How can I design a product that is intuitive and easy to use?"
+        }, 
+
+        "AbTesting": { 
+                "title": "A/B Testing", 
+                "subtitle": "How can we make better design decisions through statistical analysis and user testing?"
+        }, 
+
+        "Personas": { 
+                "title": "Personas and Storyboarding", 
+                "subtitle": "How do we improve Shiru Cafe's physical interface through a thorough understanding of their customers?"
+        }, 
+
+        "Babyface": { 
+                "title": "Babyface Website Design and Implementation", 
+                "subtitle": "How can the playful identity of BABYFACE Media be showcased through its website?   BABYFACE MEDIA is a music video collective started by a group of Brown University and RISD students. Their aim is to create playful and colorful visuals to accompany music. The goal of this project was to create an interactive single page website that is experimental and lighthearted. It needed to be able to showcase BABYFACE’s videos, while giving the user a strong sense of the collective’s identity. ",
+                "intro":"I first outlined the WHY Babyface’s website should exist, WHAT it should communicate about its brand, and also started thinking about HOW I could depart from traditional website styles to showcase Babyface’s work in a less traditional and more brutalist way.", 
+                "text01":"After deciding to move forward with Idea #2, I experimented with a few different ways of navigating to and opening video on the site. The videos will be the most important element of this website, and should open in a way that allows the viewer to focus on the video without being distracted by the background.", 
+                "text02":"After deciding on a design to move forward with, I started building the website using Vue.js. In order to increase interactivity and simulate a desktop space, I experimented with making the icons moveable. I had to make changes to the design to make it more intuitive, such as adding an “exit” button to exit the contact form and video.", 
+                "nextSteps":"This website did a good job of showcasing BABYFACE's work in a more playful way, but was unintuitive to users who are not used to experimental website design. While it was formatted for mobile devices, the user loses the dektop design of the website, and becomes more difficult to use. The playfulness aspect hinders mobile usage. To improve this on mobile, the icons can open in a separate window so the original interface doesn't change too much and confuse the user."
+        }
+   }

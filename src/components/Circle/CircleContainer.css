@@ -1,0 +1,45 @@
+.App-circle{ 
+    height: 420px; 
+    width: 420px; 
+    /* background-color: yellow;  */
+    border-radius: 50%;
+    background: linear-gradient(271deg, #8bfddf, #efff98, #fe98ff, #ff9998, #ffc698, #fff392);
+    background-size: 1600% 1600%;
+  
+    -webkit-animation: ColourShift 80s ease infinite;
+    -moz-animation: ColourShift 80s ease infinite;
+    animation: ColourShift 80s ease infinite, App-circle-spin 60s;
+    z-index: 2;
+    /* position: relative;  */
+    /* position: absolute; 
+    top: 0; 
+    left:0; */
+    box-shadow:0px 0px 20px 10px rgba(180, 247, 236, 0.3 );
+  }
+  
+  
+  @keyframes App-circle-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+    @-webkit-keyframes ColourShift {
+      0%{background-position:0% 51%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 51%}
+    }
+    @-moz-keyframes ColourShift {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+    @keyframes ColourShift {
+        0%{background-position:0% 51%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 51%}
+    }
+  
