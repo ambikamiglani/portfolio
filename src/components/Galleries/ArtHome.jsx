@@ -57,7 +57,7 @@ class ArtHome extends React.Component{
 
                     <Col className = "column" md={4}> 
                         <Row className="item" id="r-2-2"> 
-                            <PortfolioItem name="babyface" title="BABYFACE WEB" source={babyfaceImg}/> 
+                            <PortfolioItem name="babyface" title="BABYFACE WEB" source={babyfaceImg} description={Constants.BABYFACE_SUMMARY} skills={Constants.BABYFACE_SKILLS}/> 
                         </Row> 
                         <Row className="item" id="r-1-1"> 
                             {/* <div className="ImgCover"> */}

@@ -69,7 +69,7 @@ class Home extends React.Component{
                 <div className="nav-items" id="left">
                     <p id="about"
                         onMouseEnter={this.toggleHover}                        
-                        onClick={this.setClicked}
+                        onClick={(e) =>this.setClicked(e, '/about')}
                         onMouseLeave={this.toggleHover}>
                         About
                     </p>
@@ -100,7 +100,7 @@ class Home extends React.Component{
                     </p>
                     <p id="writing"
                         onMouseEnter={this.toggleHover}                        
-                        onClick={this.setClicked}
+                        onClick={(e) =>this.setClicked(e, '/writing')}
                         onMouseLeave={this.toggleHover}>
                         Writing
                     </p>

@@ -54,6 +54,12 @@ class PortfolioPage extends React.Component{
             firstImg = Constants.BABYFACE_ONE; 
             secondImg = Constants.BABYFACE_TWO; 
             fourthImg = Constants.BABYFACE_THREE; 
+        } else if (path ==="/art/holition"){ 
+            pageInfo = Portfolio.Holition; 
+            firstImg = Constants.HOLITION_ONE; 
+            secondImg = Constants.HOLITION_TWO;
+            thirdImg = Constants.HOLITION_THREE; 
+            var video = Constants.HOLITION_FOUR; 
         }
 
         return(
@@ -85,6 +91,8 @@ class PortfolioPage extends React.Component{
                         {pageInfo.text01}
                         </Row> 
                         <Row className = "ItemRow"> 
+                            <video className ="ItemRow" src={video} autoplay="true" width="720vw"  ></video>
+
                             <Image className = "ItemRow" src={thirdImg} fluid translate="-10px"/>
                         </Row> 
                         <Row className = "ItemRow" > 
@@ -92,14 +100,14 @@ class PortfolioPage extends React.Component{
                         </Row> 
                         <Row className = "ItemRow"> 
                             <Image className = "Img" src={fourthImg} fluid translate="-10px"/>
-                            <Image className = "ItemRow" src={fifthImg} fluid translate="-10px"/>
+                            <Image className = "Img" src={fifthImg} fluid translate="-10px"/>
                         </Row> 
                         <Row className = "ItemRow">
                             <h3>Next Steps</h3>
                             {pageInfo.nextSteps}
                         </Row>
                         <Row className = "ItemRow"> 
-                            <Image className = "ItemRow" src={sixthImg} width="700vw" translate="-10px"/>
+                            <Image className = "ItemRow" src={sixthImg} fluid translate="-10px"/>
                         </Row> 
 
                     </Col> 

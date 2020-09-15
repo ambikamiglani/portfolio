@@ -28,6 +28,8 @@ class PortfolioItem extends React.Component{
             redirectLink = "/product/" + this.props.name;  
         } else if(path === "/coding"){ 
             redirectLink = this.props.name; 
+        } else if(path === "/writing"){ 
+            redirectLink = this.props.name; 
         }
         // this.props.intro = "hello!"; 
         return(

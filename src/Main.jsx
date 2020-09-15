@@ -5,6 +5,8 @@ import ArtHome from './components/Galleries/ArtHome';
 import PortfolioPage from './components/Portfolio/PortfolioPage';
 import ProductHome from './components/Galleries/ProductHome'; 
 import CodingHome from './components/Galleries/CodingHome' ;
+import WritingHome from './components/Galleries/WritingHome'; 
+import About from './components/Galleries/About'; 
 
 function Main() {
     return (
@@ -15,6 +17,8 @@ function Main() {
         <Route exact path='/product' component={ProductHome}/>
         <Route exact path='/product/:productId' component={PortfolioPage}/>
         <Route exact path='/coding' component={CodingHome}/>
+        <Route exact path='/writing' component={WritingHome}/>
+        <Route exact path='/about' component={About}/>
         {/* <Route exact path ='coding' component={CodingHome}/> */} 
     </Switch>
 );

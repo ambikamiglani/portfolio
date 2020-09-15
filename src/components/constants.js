@@ -5,6 +5,8 @@ export const SOUND_SUMMARY = "A 3D world inspired by music. A video journey thro
 export const SOUND_SKILLS = "Unity3D, C#, world-building, storytelling"
 export const HOLITION_SUMMARY = "A data visualization created for the Tate Modern as a part of Holition's internship programme"
 export const HOLITION_SKILLS = "Data collection and visualization, user-centric design"
+export const BABYFACE_SUMMARY="Designed and built a website for BABYFACE MEDIA, and made the three videos features on the website."; 
+export const BABYFACE_SKILLS="Videography, directing, AdobeXD, Vue.js, HTML/CSS"; 
 
 //OASIS Portfolio Page Images 
 export const OASIS_IMG = require("./Portfolio/oasis.jpg");
@@ -26,6 +28,12 @@ export const PEGGY_THREE = require("./Portfolio/img/peggy3.png");
 export const PEGGY_FOUR = require("./Portfolio/img/peggy4.png"); 
 export const PEGGY_FIVE = require("./Portfolio/img/peggy5.png"); 
 
+//HOLITION Portfolio Page Images 
+export const HOLITION_ONE = require("./Portfolio/img/holition_intro.gif"); 
+export const HOLITION_TWO = require("./Portfolio/img/HolitionProcess.png"); 
+export const HOLITION_THREE = require("./Portfolio/img/HolitionProcess2.png"); 
+export const HOLITION_FOUR = require("./Portfolio/img/tatefinal2.mp4"); 
+
 // Constants for Product Home 
 export const ITERATIVE_SUMMARY = "Designed an mobile interface for a dish review app and improved it after user feedback"
 export const ITERATIVE_SKILLS = "Lofi and Hifi prototyping, feedback-based decision making, UI/UX design"
@@ -33,6 +41,12 @@ export const AB_SUMMARY = "Designed and deployed two versions of a website, and 
 export const AB_SKILLS = "Statistical analysis, data-based decision making"
 export const PERSONA_SUMMARY = "An analysis of Shiru Cafe's in-store interface with its customers"
 export const PERSONA_SKILLS = "User research, building mental models"
+
+// Constants for Writing Home 
+export const PERCEPTION_SUMMARY = "How do virtual spaces warp our idea of distance and space? What are the concepts of “presence” and “immersion” and how can we test the effectiveness of them?"; 
+export const PERCEPTION_SKILLS = "Psychology research, analytical writing, virtual reality theory"
+export const REMAP_SUMMARY = "A media manifesto rethinking the use of the global positioning system, in a shift to facilitate exploration and deepened political and geographic understanding of one’s environment."
+export const REMAP_SKILLS = "Creative writing, critical re-imagining of current technology"
 
 //Constants for Coding Home 
 export const STARS_SUMMARY="Built a REPL and implemented a multi-dimensional nearest neighbour algorithm using a KD-Tree built from a CSV of star coordinates."; 

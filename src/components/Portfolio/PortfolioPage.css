@@ -39,3 +39,19 @@
 
     /* margin-top: 5%;  */
 }
+
+#profile{ 
+    padding-bottom: 3vh; ;
+}
+
+#about{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact{ 
+    font-style: italic;
+    display: inline-block;
+    list-style-type: none; 
+}

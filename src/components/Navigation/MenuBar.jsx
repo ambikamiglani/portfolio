@@ -20,9 +20,9 @@ class MenuBar extends React.Component{
                         <Nav.Link href="/art">ART</Nav.Link>
                         <Nav.Link href="/product">PRODUCT</Nav.Link>
                         <Nav.Link href="/coding">CODING</Nav.Link>
-                        <Nav.Link >WRITING</Nav.Link>
-                        <Nav.Link >ABOUT</Nav.Link>
-                        <Nav.Link id="play">PLAY</Nav.Link>
+                        <Nav.Link href="/writing">WRITING</Nav.Link>
+                        <Nav.Link href="/about">ABOUT</Nav.Link>
+                        {/* <Nav.Link id="play">PLAY</Nav.Link> */}
 
                     </Nav>
                 </Col> 
