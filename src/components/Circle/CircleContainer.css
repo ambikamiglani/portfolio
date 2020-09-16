@@ -1,6 +1,6 @@
 .App-circle{ 
-    height: 420px; 
-    width: 420px; 
+    height: 30vw; 
+    width: 30vw; 
     /* background-color: yellow;  */
     border-radius: 50%;
     background: linear-gradient(271deg, #8bfddf, #efff98, #fe98ff, #ff9998, #ffc698, #fff392);

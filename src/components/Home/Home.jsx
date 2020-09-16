@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'; 
 import CircleContainer from '../Circle/CircleContainer'; 
+import {Container, Col, Row} from 'react-bootstrap'; 
 import { Link, NavLink } from 'react-router-dom';
 import { withRouter, Redirect } from 'react-router'
 
@@ -65,26 +66,26 @@ class Home extends React.Component{
 
             }
         return(             
-            <div className="Layout" style={backgroundStyle}>
-                <div className="nav-items" id="left">
+            <Row className="Layout" style={backgroundStyle}>
+                <Col className="nav-items" id="left">
                     <p id="about"
                         onMouseEnter={this.toggleHover}                        
                         onClick={(e) =>this.setClicked(e, '/about')}
                         onMouseLeave={this.toggleHover}>
                         About
                     </p>
-                </div>  
+                </Col>  
                 
-                <div className="Home"> 
-                    {/* <img id="logo" src={logo}></img> */}
+                <Col className="Home"> 
                     <header className="Header" id="row-1"> AMBIKA MIGLANI</header>
+                    <div id="filler"></div>
                     <CircleContainer 
                         className="Circle" 
                         id="row-2" 
                         style={circleStyle}
                         clicked={this.state.clicked}/>
-                </div> 
-                <div className="nav-items" id="right">
+                </Col> 
+                <Col className="nav-items" id="right">
                 <p id="art"
                         onMouseEnter={this.toggleHover}                        
                         onClick={(e)=>this.setClicked(e, '/art')}
@@ -110,9 +111,9 @@ class Home extends React.Component{
                         onMouseLeave={this.toggleHover}>
                         Product
                     </p>
-                </div> 
+                </Col> 
  
-            </div>
+            </Row>
 
         );
     } 

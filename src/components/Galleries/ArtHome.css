@@ -7,7 +7,7 @@
         align-items: center;
         justify-content: center; */
         /* background: linear-gradient(271deg, #8bfddf, #b0ff97, #efff98, #fe98ff, #ff9998, #ffc698, #fff392, #92ffb8);  */
-        background-size: 2000% 2000%;  
+        /* background-size: 2000% 2000%;   */
         background: seashell;
         -webkit-animation: ColourShift 100s ease infinite;
         -moz-animation: ColourShift 100s ease infinite;

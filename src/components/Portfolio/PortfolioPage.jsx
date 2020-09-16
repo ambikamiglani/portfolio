@@ -41,7 +41,7 @@ class PortfolioPage extends React.Component{
 
         } else if(path ==="/product/iterative"){ 
             pageInfo = Portfolio.Iterative; 
-            firstImg = Constants.ITER_ONE; 
+            secondImg = Constants.ITER_ONE; 
 
         } else if(path ==="/product/abtesting"){ 
             pageInfo = Portfolio.AbTesting; 
@@ -69,10 +69,10 @@ class PortfolioPage extends React.Component{
                     <p id="title"> AMBIKA MIGLANI</p>
                 </Row> 
                 <Row> 
-                    <Col className = 'MenuBar'> 
+                    <Col className = 'MenuBar' md={4}> 
                         <MenuBar/> 
                     </Col> 
-                    <Col className = "ContentCol" md={6}>  
+                    <Col className = "ContentCol" md={8}>  
                         <Row className = "ItemRow name">  
                             {pageInfo.title}
                         </Row>
@@ -91,7 +91,7 @@ class PortfolioPage extends React.Component{
                         {pageInfo.text01}
                         </Row> 
                         <Row className = "ItemRow"> 
-                            <video className ="ItemRow" src={video} autoplay="true" width="720vw"  ></video>
+                            <video className ="ItemRow" src={video} autoplay="true" width="690vw"  ></video>
 
                             <Image className = "ItemRow" src={thirdImg} fluid translate="-10px"/>
                         </Row> 

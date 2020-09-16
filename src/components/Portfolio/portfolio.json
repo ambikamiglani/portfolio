@@ -13,23 +13,26 @@
                 "title": "Sound as Space", 
                 "subtitle": "How can a we visually immerse a user in journey through sound?  I drew inspiration from Peggy Gou's performance at her London Mixmag set and her song 'Starry Night' to experiment with making music a more visual, visceral experience. The photos below are stills from a recording of her performance.", 
                 "intro": "At a live event, colorful lights often enhance the viewer's musical experience. I was inspired by the lights at Peggy Gou's set and tried to incorporate similar colors into my world. I started experimenting with environment configurations on Unity3D.", 
-                "text01": "After deciding on the color palette for the environment, I started populating the 3D world with surreal imagery. My intention was to use realistic 3D models in an unrealistic setting, so that the viewer would be immersed by the familiarity of some of the imagery, but wuold want to explore because of their unusual context.", 
+                "text01": "After deciding on the color palette for the environment, I started populating the 3D world with surreal imagery. My intention was to use realistic 3D models in an unrealistic setting, so that the viewer would be immersed by the familiarity of some of the imagery, but would want to explore because of their unusual context.", 
                 "nextSteps": "This piece was exciting to work on and presents an immersive way of experiencing music. However, I used mostly camera and environment transitions to match specific transitions in the song, but next time I could animate more of the objects to the beat of the music."
         }, 
 
         "Iterative": { 
                 "title": "Iterative Design and User Testing", 
-                "subtitle": "How can I design a product that is intuitive and easy to use?"
+                "subtitle": "How can I design a product that is intuitive and easy to use?", 
+                "nextSteps": "This projec was successful in that I was able to use user feedback and directly apply it to the design of this app. However, I think the process in which someone finds a particular dish they are looking for can be more refined. The users took over 2 minutes to find and select a dish they already knew they wanted to eat. It was much faster to leave a review (8s), but this app needs to be equally as easy for the user to compare reviews to find a dish. It needs to be able to facilitate fast and efficient decision making."
         }, 
 
         "AbTesting": { 
                 "title": "A/B Testing", 
-                "subtitle": "How can we make better design decisions through statistical analysis and user testing?"
+                "subtitle": "How can we make better design decisions through statistical analysis and user testing?", 
+                "nextSteps": "This experiment was great to learn about comparing designs using statistical analysis. However, this is just a test of one page. I would be curious to conduct A/B testing on different sequences of interactions and pages. I would also like to combine a statistical A/B test with a more qualitative user test to get a more holitic idea of how a user is interacting with a given interface. It would also be interesting to conduct an A/B test on a more interactive interface, where a user has to make more complex decisions than just making a selection out of four options."
         }, 
 
         "Personas": { 
                 "title": "Personas and Storyboarding", 
-                "subtitle": "How do we improve Shiru Cafe's physical interface through a thorough understanding of their customers?"
+                "subtitle": "How do we improve Shiru Cafe's physical interface through a thorough understanding of their customers?", 
+                "nextSteps": "While I think we got a good grasp of Shiru Cafe's customers and what they look for in an interface, they way we presented the mental models and personas made it difficult to understand at first glance how they differentiated from one another. Personas should be displayed at very distinct from each other, as to better understand all the different customer segments that might interact with the interface."
         }, 
 
         "Babyface": { 
