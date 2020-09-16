@@ -1,7 +1,7 @@
 .ArtHome{ 
-        min-width: fit-content;
-        height: 100%; 
-        padding-bottom: 15vh; 
+        min-width: 100%;
+        min-height:100vh; 
+        /* padding-bottom: 20vh;  */
         /* display: flex;
         flex-direction: row;
         align-items: center;
@@ -47,6 +47,7 @@
     margin-left: 2vw;
     text-align: left; 
     justify-content: center; 
+    /* height: 100%;  */
 }
 
 #third-col{ 

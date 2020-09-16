@@ -65,7 +65,8 @@ class Home extends React.Component{
             }
 
             }
-        return(             
+        return(  
+            // <Container className="homeRoot">         
             <Row className="Layout" style={backgroundStyle}>
                 <Col className="nav-items" id="left">
                     <p id="about"
@@ -114,7 +115,7 @@ class Home extends React.Component{
                 </Col> 
  
             </Row>
-
+            // </Container>  
         );
     } 
 

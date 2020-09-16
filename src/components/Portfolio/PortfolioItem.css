@@ -41,21 +41,28 @@
 .contentContainer{ 
     margin: 20px; 
     text-align: left;
-    font-size: 20px; 
+    
     
 }
 
 .name{ 
     font-weight: 700;
     font-size: 4ex;
+    font-size: calc(17px + 1vmin); 
+
     /* color: black;  */
+}
+
+#description{ 
+    font-size: calc(8px + 1vmin); 
+
 }
 
 #skills{ 
     padding-top: 5px;
     font-style: italic;
     color: blue; 
-    font-size: 14px; 
+    font-size: calc(5px + 1vmin); 
 }
 
 #see-more{ 
@@ -68,7 +75,7 @@
 }
 
 #see-more:hover{ 
-    text-decoration: underline; 
+    text-decoration-color: #ffb97f; 
 
 }
 

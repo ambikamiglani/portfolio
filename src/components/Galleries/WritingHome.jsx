@@ -25,7 +25,7 @@ function WritingHome() {
                     </Col>  
                     <Col className="column" md={4}> 
                     <Row className="item" id="r-1-2"> 
-                            <PortfolioItem name={PerceptionPdf} title="PERCEPTION OF EGOCENTRIC DISTANCE IN VIRTUAL SPACES" source={perceptionImg} description={Constants.PERCEPTION_SUMMARY} skills={Constants.PERCEPTION_SKILLS}/> 
+                            <PortfolioItem name={PerceptionPdf} title="DISTANCE IN VIRTUAL SPACES" source={perceptionImg} description={Constants.PERCEPTION_SUMMARY} skills={Constants.PERCEPTION_SKILLS}/> 
                     </Row> 
                     </Col>
                     <Col className="column" md={4}>

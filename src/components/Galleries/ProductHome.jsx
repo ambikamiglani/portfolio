@@ -30,19 +30,22 @@ function ProductHome() {
                     <Col className = "MenuBar" md={4}> 
                         <MenuBar/>
                     </Col>  
+
+                    {/* <Col md={8}><Row> */}
                     <Col className="column" md={4}> 
-                    <Row className="item" id="r-1-2"> 
-                            <PortfolioItem name="iterative" title="ITERATIVE DESIGN AND USER TESTING" source={iterativeImg} description={Constants.ITERATIVE_SUMMARY} skills={Constants.ITERATIVE_SKILLS}/> 
-                    </Row> 
-                    <Row className="item" id="r-1-2"> 
-                            <PortfolioItem name="personas" title="PERSONAS AND STORYBOARDING" source={personasImg} description={Constants.PERSONA_SUMMARY} skills={Constants.PERSONA_SKILLS}/> 
-                    </Row> 
+                        <Row className="item" id="r-1-2"> 
+                                <PortfolioItem name="iterative" title="ITERATIVE DESIGN AND USER TESTING" source={iterativeImg} description={Constants.ITERATIVE_SUMMARY} skills={Constants.ITERATIVE_SKILLS}/> 
+                        </Row> 
+                        <Row className="item" id="r-1-2"> 
+                                <PortfolioItem name="personas" title="PERSONAS AND STORYBOARDING" source={personasImg} description={Constants.PERSONA_SUMMARY} skills={Constants.PERSONA_SKILLS}/> 
+                        </Row> 
                     </Col>
                     <Col className="column" md={4}>
                         <Row className="item"> 
                             <PortfolioItem name="abtesting" title="A/B TESTING" source={abImg} description={Constants.AB_SUMMARY} skills={Constants.AB_SKILLS}/> 
                         </Row>
                     </Col>
+                    {/* </Row></Col> */}
                 </Row>
         </Container>
         </FadeIn>

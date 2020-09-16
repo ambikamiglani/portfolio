@@ -16,8 +16,13 @@
     color: #1f1f2e; 
     text-transform: uppercase;
     font-size: calc(7px + 2vmin);
+    overflow: hidden;
 }
 
+/* .homeRoot{ 
+    width:100%; 
+    height:100%; 
+} */
 .Home{ 
     display: flex;
     flex-direction: column;
