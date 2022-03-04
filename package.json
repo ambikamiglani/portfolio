@@ -1,5 +1,5 @@
 {
-  "name": "website",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -20,7 +20,7 @@
     "react-scripts": "^3.4.3"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
