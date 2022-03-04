@@ -44,7 +44,7 @@ function About() {
                     <a href="https://www.tate.org.uk/art" target="_blank">
                       Tate Modern
                     </a>{" "}
-                    , as a part of my product design and UI/UX internship at
+                    , as a part of my product design and UI/UX internship at{" "}
                     <a href="https://cs.brown.edu/" target="_blank">
                       Holition
                     </a>{" "}
@@ -53,9 +53,9 @@ function About() {
                     other disciplines. At Brown, I led the interdisciplinary New
                     Media team in{" "}
                     <a href="https://www.ivyfilmfestival.org/" target="_blank">
-                      Ivy Film Festival
+                      Ivy Film Festival.
                     </a>{" "}
-                    . We created a{" "}
+                    We created a{" "}
                     <a
                       href="https://hubs.mozilla.com/f5wm3MP/iff-vr-arcade-2021 "
                       target="_blank"
@@ -73,10 +73,10 @@ function About() {
                       {" "}
                       make music videos,
                     </a>
-                    , and lots of tea! Email me, DM me, or make an
+                    , and lots of tea! Email me, DM me, or make an{" "}
                     <a href="https://www.are.na/ambika-miglani" target="_blank">
                       Are.na
-                    </a>
+                    </a>{" "}
                     page with me!
                   </a>
                 </Row>
