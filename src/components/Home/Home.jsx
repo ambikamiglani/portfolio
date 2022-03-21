@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import CircleContainer from "../Circle/CircleContainer";
 import { Col, Row } from "react-bootstrap";
-import { withRouter } from "react-router";
+// import { withRouter } from "react-router";
 
 class Home extends React.Component {
   constructor(props) {
@@ -128,6 +128,6 @@ class Home extends React.Component {
     );
   }
 }
-const HomeWithRouter = withRouter(Home);
+// const HomeWithRouter = withRouter(Home);
 
 export default Home;
